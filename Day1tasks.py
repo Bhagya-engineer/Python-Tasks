@@ -48,7 +48,7 @@ if temperature>lower_limit and temperature<upper_limit:
     print("temperature is in safe range")
 else:
     print("temperature is not in safe range")
-"""
+
 
 #6. Check whether both entered numbers are even
 
