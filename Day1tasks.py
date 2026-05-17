@@ -155,7 +155,11 @@ if temperature<lower_limit or temperature>upper_limit:
 
 #17. Check whether entered username matches predefined values
 
-
+user=input("enter username")
+if user=="admin" or user=="manager":
+    print("login successfull")
+else:
+    print("login failed")
 
 #18. Check whether selected option belongs to given choices
 
